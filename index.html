@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Projeto Bang Dice
+    </title>
+    <link rel="stylesheet" href="./src/css/BangDice.css">
+</head>
+
+<body>
+
+    
+    <h1>🃏 Bang Dice 🎲</h1>
+    
+    <main id="topo">
+
+            <h2>📜 Regras 📜</h2>
+
+            <p>
+                <ol>
+                    <li><div>Número de jogadores: 2 a 8!</div></li>
+                    <li><div>Ao sortear uma carta de dano, escolha o alvo que você deseja tirar 1 PV</div></li>
+                    <li><div>Ao sortear uma carta de cerveja, escolha se você deseja se curar, porém não é permitido se curar além do número inicial de PV</div></li>
+                    <li><div>Ao sortear uma carta de índios, você deve tomar um Dano</div></li>
+                    <li><div>Ao sortear uma carta de dinamite, você deve selecionar DINAMITE e perderá 3 PV</div></li>
+                    <li><div>Ao zerar os PV, você é eliminado do jogo</div></li>
+                </ol>
+            </p>
+            
+            <h3>✏️ Tabela de classificação 🗒️</h3>
+            
+            <div>
+
+                <input type="text" name="jogador" id="jogador">
+
+                <a href="#tabelaJogadores">
+                    <button id="adicionar-jogador">Adicionar jogador</button>
+                </a>
+            
+                <a href="#carta-sorteada">
+                    <button class="rolar-dado" id="sortear-carta">Sortear Carta</button>
+                </a>
+
+                <table style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Imagem</th>
+                            <th>Nome</th>
+                            <th>PV</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabelaJogadores">
+
+                    </tbody>
+                </table>
+
+                
+            </div>
+            
+            <p id="carta-sorteada"></p>
+            <a href="#topo"><button>Voltar ao Topo</button></a>
+            <button id="reiniciar-jogo">Reiniciar Jogo</button>
+            
+    </main>
+
+    <script src="./src/js/BangDice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+* {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-color: #984c38;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    z-index: 0;
+}
+
+main {
+    -webkit-box-shadow: 5px 5px 500px 8px rgba(0,0,0,0.59);
+    box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #ffeaca;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+section ol div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: left;
+}
+
+table {
+    -webkit-box-shadow: 5px 5px 500px 8px rgba(152,76,56, 0.7);
+    box-shadow: 5px 5px 50px 8px rgba(152,76,56, 0.7);
+    border: 1px solid #984c38;
+    border-collapse: collapse;
+    background-color: #b46750;
+    color: black;
+    border-radius: 10px;
+}
+
+h1 {
+    color: black;
+}
+
+th, tr, td {
+    border: solid 1px black;
+}
+
+div {
+    -webkit-box-shadow: 5px 5px 500px 8px rgba(152,76,56, 0.5);
+    box-shadow: 5px 5px 50px 8px rgba(152,76,56, 0.5);
+    padding: 15px;
+    border: 1px solid black;
+    background-color: #f39b76;
+    border-radius: 5px;
+}
+
+input {
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #ffeaca;
+    margin-bottom: 13px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+    scroll-behavior: smooth;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.rolar-dado{
+    margin-top: 20px;
+}*/
